@@ -1,0 +1,5 @@
+{
+    "mysql":"root:admin@123456@/cost?charset=utf8&parseTime=true",
+    "listen":":8080",
+    "aes_key":"d;zjcjk;cvj0pajiejkl;jkl;jcbnbhjfjfj;asddj;scq23yu89238="
+}
