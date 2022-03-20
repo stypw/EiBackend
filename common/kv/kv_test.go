@@ -10,7 +10,7 @@ func TestSimple(t *testing.T) {
 	str := ``
 	obj := FromString(str)
 	kvType := obj.GetType()
-	if kvType != UndefinedType {
+	if kvType != NullType {
 		t.Fatalf("将空字符串系列化成JSON，得到的应该是undefined，但测试得到的却是%s", obj.StringValue())
 	}
 
